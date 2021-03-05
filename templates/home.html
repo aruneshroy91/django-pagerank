@@ -1,0 +1,13 @@
+{% extends 'base.html'%}
+
+{% block content%}
+<h1>Welcome to {{name}}!</h1>
+
+<form action="add">
+    Enter the url: <input type="text" name="website"><br>
+    Enter keyword(s): <input type="text" name="keywords"><br>
+    <input type="submit">
+
+</form>
+
+{% endblock %}
