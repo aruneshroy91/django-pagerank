@@ -1,4 +1,4 @@
-# django-Google-pagerank
+# Django-Google-pagerank
 A simple Django app to find page ranking in google by keywords.
 
 1. First fetch the google search data. To solve this use Requests
